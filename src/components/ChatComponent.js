@@ -2,7 +2,7 @@ import React, { useState, useCallback, useRef, useEffect } from 'react';
 import '../styles/ChatComponent.css';
 import ReactMarkdown from 'react-markdown';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api/chat';
+const API_URL = process.env.REACT_APP_API_URL || 'https://chatbot-backend-lac.vercel.app/api/chat';
 
 const ChatComponent = () => {
   const [input, setInput] = useState('');
